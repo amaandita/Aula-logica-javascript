@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Atividade 8 do formulário</h1>
+    <script>
+        let trabalho1 =parseInt(prompt("insira a nota do primeiro trabalho aqui"));
+        let trabalho2 =parseInt(prompt("insira a nota do segundo trabalho aqui"));
+        let trabalho3 =parseInt(prompt("insira a nota do caderno aqui"));
+        let trabalho4 =parseInt(prompt("insira a nota da prova aqui"));
+
+        let soma = (trabalho1 + trabalho2 + trabalho3 + trabalho4);
+        let resultado = (soma / 4);
+
+        document.write("sua média é: " + resultado )
+
+        if(resultado >=6){
+            document.write("<br>" + "Você passou no teste!!")
+        }else{
+            document.write("<br>" + "Tente novamente")
+        }
+    </script>
+</body>
+</html>
