@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual maior número?</h1>
+    <script>
+        let numero1 =parseInt(prompt("Digite o primeiro numero"));
+        let numero2 =parseInt(prompt("Digite o segundo numero"));
+        let numero3 =parseInt(prompt("Digite o terceiro numero"));
+
+        if((numero1 > numero2) && (numero1 > numero3)){
+            document.write("O " +numero1+ " é o maior")
+        }
+        if((numero2 > numero1) && (numero2 > numero3)){
+            document.write("<br>" + "O " +numero2+ " é o maior")
+        }
+        if((numero3 > numero1) && (numero3 > numero2)){
+            document.write("<br>" + "O " +numero3+ " é o maior")
+        }
+            
+    
+        
+    </script>
+</body>
+</html>
